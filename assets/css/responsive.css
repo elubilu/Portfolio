@@ -1,0 +1,696 @@
+/* Big Screen Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .hero-area {
+    height: 650px;
+  }
+  .hero-content h3 {
+    font-size: 90px;
+  }
+  p.bio-text {
+    font-size: 30px;
+  }
+  .about-owner-img {
+    width: 470px;
+    height: 470px;
+  }
+  .about-area .section-title p {
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .nav-tabs .nav-link {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+  }
+  .nav-tabs .nav-link.active::after {
+    width: 70%;
+    top: 24px;
+  }
+  .skillbar {
+    margin-bottom: 10px;
+  }
+  .single-experience p {
+    font-size: 13px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .about-area::after {
+    top: 0px;
+    height: 90%;
+  }
+  .single-service p {
+    font-size: 14px;
+  }
+  .portfolio-menu h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .portfolio-menu {
+    padding: 30px 60px;
+}
+  .portfolio-menu ul li {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-portfolio {
+    height: 185px;
+    width: 25%;
+  }
+  .single-testimonial {
+    padding: 30px 20px;
+  }
+  .testimonial-content p {
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+  .single-testimonial::before {
+    top: 60px;
+  }
+  .single-testimonial::after {
+    left: 10px;
+  }
+  .blog-content h2 {
+    font-size: 20px;
+  }
+  .blog-meta ul li {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  /*blog*/
+    .latest-news-title p a {
+    font-size: 10px;
+  }
+  .latest-news-title p {
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 5px;
+  }
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-menu {
+    display: none;
+  }
+  #mobile-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  #mobile-menu .slicknav_btn {
+    bottom: 15px;
+  }
+  .slicknav_nav {
+    top: 35px;
+  }
+  .hire-btn {
+    display: none;
+  }
+  .main-menu ul li a {
+    font-size: 14px;
+  }
+  .hero-area {
+    height: 580px;
+  }
+  .hero-content h3 {
+    font-size: 80px;
+  }
+  .hero-content.typing-head h3 {
+    font-size: 50px;
+    height: 40px;
+  }
+  p.bio-text {
+    font-size: 30px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .about-area::after {
+    top: 0;
+    height: 90%;
+  }
+  .about-owner-img {
+    width: 350px;
+    height: 350px;
+  }
+  .about-area .section-title p {
+    display: none;
+  }
+  .nav-tabs {
+    margin-bottom: 0;
+  }
+  .nav-tabs .nav-link {
+    font-size: 10px;
+    padding: 0 8px;
+  }
+  .nav-tabs .nav-link.active::after {
+    width: 50%;
+    top: 15px;
+    left: 0;
+  }
+  .skill-title {
+    margin-bottom: 0;
+  }
+  .single-experience h2 {
+    font-size: 14px;
+  }
+  .single-experience h5 {
+    font-size: 12px;
+  }
+  .single-experience p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .single-logo {
+    width: 30%;
+  }
+  .single-service p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .single-service h2 {
+    font-size: 20px;
+  }
+  .single-service i {
+    font-size: 40px;
+  }
+  .portfolio-menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .portfolio-menu {
+    padding: 30px 60px;
+}
+  .portfolio-menu ul li {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-portfolio {
+    height: 170px;
+    width: 25.1%;
+  }
+  .portfolio-menu ul li.active::after {
+    right: 20px;
+  }
+  .single-testimonial::before {
+    width: 85%;
+    height: 50%;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+  }
+  .author-image {
+    padding-bottom: 10px;
+  }
+  .single-testimonial {
+    padding: 39px 100px
+  }
+  .single-testimonial::after {
+    bottom: 63px;
+    left: 190px;
+  }
+  .blog-content h2 {
+    font-size: 18px;
+  }
+  .blog-meta {
+    margin-bottom: 0;
+  }
+  .blog-meta ul li {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .blog-content {
+    padding: 10px 20px;
+  }
+  .get-touch-title p {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .foter-bottom {
+    padding-top: 40px;
+  }
+  /*blog*/
+    .breadcrumb-area {
+    height: 450px;
+    z-index: 0;
+  }
+  .blog-page,
+  .single-blog-page {
+    padding: 80px 0;
+  }
+  .blog-page.section-padding {
+    padding: 40px 0;
+  }
+  .latest-news-title {
+    float: left;
+    margin-left: -100px;
+  }
+  .author-img>img {
+    margin: 20% 0 20px;
+  }
+
+}
+/* Mobile Layout: 767px. */
+
+@media only screen and (max-width: 767px) {
+  .download-btn {
+    display: none;
+  }
+  .main-menu {
+    display: none;
+  }
+  #mobile-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .sticky {
+    padding: 20px 10px;
+  }
+  .sticky #mobile-menu .slicknav_btn {
+    padding: 23px 20px;
+  }
+  .hire-btn {
+    display: none;
+  }
+  .hero-content h3 {
+    font-size: 65px;
+  }
+  .hero-content.typing-head h3 {
+    font-size: 40px;
+    height: 20px;
+  }
+  .hero-area {
+    height: 600px;
+  }
+  p.bio-text {
+    font-size: 20px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .about-owner-img {
+    position: unset;
+    left: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    height: 100%;
+  }
+  .about-owner-img img {
+    box-shadow: 0px 0px 19px #777;
+  }
+  .about-area::after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .about-area .section-title p {
+    display: none;
+  }
+    .portfolio-menu {
+    padding: 30px 60px;
+}
+  .single-portfolio {
+    width: 25%;
+  }
+  .portfolio-menu ul li.active::after {
+    right: 160px;
+  }
+  /*blog*/
+  .blog-page,
+  .single-blog-page {
+    padding-top: 20px;
+  }
+  button.subscribe-btn.btn.black.grdnt-blue {
+    border: 1px solid #fff;
+  }
+  .breadcrumb-area h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 100px;
+  }
+  .breadcrumb-area ul li {
+    font-size: 12px;
+  }
+  h3.blog-title a {
+    font-size: 20px;
+  }
+  .blog-post p {
+    font-size: 14px;
+  }
+  .blog-Pagination a {
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+  }
+  .single-blog-page.section-padding {
+    padding: 40px 0;
+  }
+  .single-posts h2 {
+    font-size: 24px;
+  }
+  .blog-posts-meta ul li {
+    font-size: 8px;
+    margin-right: 15px;
+  }
+  .blog-posts-meta ul li i {
+    margin-right: 6px;
+  }
+  .blog-posts-meta ul li::before {
+    right: -12px;
+  }
+  .entry-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .single-posts blockquote p {
+    font-size: 12px;
+  }
+  .single-posts blockquote p i {
+    font-size: 14px;
+  }
+  .entry-footer {
+    text-align: center;
+  }
+  .post-share {
+    float: none;
+    margin-top: 10px;
+  }
+  .comment-box .comment-reply-button {
+    right: 30px;
+  }
+  .comment-box p {
+    font-size: 12px;
+    margin: 10px 0 20px;
+    line-height: 20px;
+  }
+  .comment-box.children {
+    margin-left: 40px;
+  }
+  .comment-form {
+    margin-bottom: 40px;
+  }
+  .search-submit {
+    right: 58px;
+  }
+  .widget {
+    padding: 30px 20px;
+  }
+  .widget.latest-news-widget,
+  .latest-news-title {
+    text-align: center;
+  }
+  .latest-news-title {
+    float: none;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  .category li a {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+.author-img>img {
+    margin: 15% 0 20px;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 391px) and (max-width: 500px) {
+  .nav-tabs .nav-link {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 20px 6px 0px;
+  }
+  .nav-tabs .nav-link.active::after {
+    width: 50%;
+    height: 20px;
+    top: 23px;
+    left: 0px;
+  }
+  .single-experience p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .single-experience h2 {
+    font-size: 16px;
+  }
+  .single-experience h5 {
+    font-size: 12px;
+  }
+  .single-logo {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 25%;
+    margin-right: 25px;
+  }
+  .portfolio-menu h2 {
+    font-size: 40px;
+  }
+  .portfolio-menu ul li {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-portfolio {
+    height: 150px;
+  }
+  .portfolio-content h3 {
+    font-size: 12px;
+  }
+  .portfolio-content p {
+    font-size: 10px;
+  }
+  .m-b-65 {
+    margin-bottom: 30px;
+  }
+  .client-logo-title h4 {
+    font-size: 18px;
+  }
+  .get-touch-title h2 {
+    font-size: 50px
+  }
+  .get-touch-title p {
+    font-size: 14px;
+  }
+  .foter-bottom {
+    padding-top: 30px;
+  }
+    /*blog*/
+  .breadcrumb-area {
+    height: 350px;
+  }
+  .single-posts h2 {
+    font-size: 20px;
+    padding: 15px 0 5px;
+  }
+  .blog-posts-meta.single {
+    margin-bottom: 5px;
+  }
+.author-img>img {
+    margin: 10% 0 20px;
+}
+}
+/* small Layout: 390px. */
+
+@media only screen and (max-width: 390px) {
+  .hero-content h3 {
+    font-size: 50px;
+  }
+  .hero-content.typing-head h3 {
+    font-size: 34px;
+  }
+  p.bio-text {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .about-area::after {
+    height: 94%;
+  }
+  .nav-tabs .nav-link {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 16px 6px 0px;
+  }
+  .nav-tabs .nav-link.active::after {
+    width: 50%;
+    height: 20px;
+    top: 23px;
+    left: 0px;
+  }
+  .single-experience p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .single-experience h2 {
+    font-size: 13px;
+  }
+  .single-experience h5 {
+    font-size: 12px;
+  }
+  .single-logo {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 24%;
+    margin-right: 25px;
+  }
+  .portfolio-menu h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .portfolio-menu ul li {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 13px;
+  }
+  .portfolio-menu ul li.active::after {
+    right: 150px;
+  }
+  .single-portfolio {
+    height: 130px;
+    width: 25.5%;
+  }
+  .portfolio-content h3 {
+    font-size: 12px;
+  }
+  .portfolio-content p {
+    font-size: 10px;
+  }
+  .single-testimonial::after {
+    bottom: 70px;
+  }
+  .blog-content {
+    padding: 20px 30px;
+  }
+  .blog-content h2 {
+    font-size: 24px;
+  }
+  .m-b-65 {
+    margin-bottom: 30px;
+  }
+  .client-logo-title h4 {
+    font-size: 18px;
+  }
+  .get-touch-title h2 {
+    font-size: 50px
+  }
+  .get-touch-title p {
+    font-size: 14px;
+  }
+  .foter-bottom {
+    padding-top: 30px;
+  }
+  /*blog*/
+  .breadcrumb-area {
+    height: 350px;
+  }
+  .breadcrumb-area h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 100px;
+  }
+  .breadcrumb-area ul li {
+    font-size: 10px;
+  }
+  h3.blog-title a {
+    font-size: 20px;
+  }
+  .blog-post p {
+    font-size: 14px;
+  }
+  .blog-Pagination a {
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+  }
+  .single-blog-page.section-padding {
+    padding: 40px 0;
+  }
+  .single-posts h2 {
+    font-size: 20px;
+    padding: 15px 0 5px;
+  }
+  .blog-posts-meta.single {
+    margin-bottom: 5px;
+  }
+  .blog-posts-meta ul li {
+    font-size: 8px;
+    margin-right: 15px;
+  }
+  .blog-posts-meta ul li i {
+    margin-right: 6px;
+  }
+  .blog-posts-meta ul li::before {
+    right: -12px;
+  }
+  .entry-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .single-posts blockquote p {
+    font-size: 12px;
+  }
+  .single-posts blockquote p i {
+    font-size: 14px;
+  }
+  .entry-footer {
+    text-align: center;
+  }
+  .post-share {
+    float: none;
+    margin-top: 10px;
+  }
+  .comment-box .comment-reply-button {
+    right: 30px;
+  }
+  .comment-box p {
+    font-size: 12px;
+    margin: 10px 0 20px;
+    line-height: 20px;
+  }
+  .comment-box.children {
+    margin-left: 40px;
+  }
+  .comment-form {
+    margin-bottom: 40px;
+  }
+  .search-submit {
+    right: 58px;
+  }
+  .widget {
+    padding: 30px 20px;
+  }
+  .widget.latest-news-widget,
+  .latest-news-title {
+    text-align: center;
+  }
+  .latest-news-title {
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  .category li a {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  .author-img>img {
+    margin: 10% 0 15px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  /* Medium Layout: 1280px. */
+  .nav-tabs .nav-link {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 18px 6px 0px;
+  }
+}
